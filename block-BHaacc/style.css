@@ -1,0 +1,438 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Oswald&family=Roboto+Slab:wght@300&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*custom styles*/
+
+
+
+.brand {
+    
+    float:left;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+
+}
+.navbar1{
+    float: left;
+    padding-top: 25px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    color: white;
+    
+
+}
+.brand, .navbar1, .navbar2{
+    display: inline-block;
+    
+}
+.navbar1 a{
+    margin-left: 22px;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    
+}
+.navbar2{
+    float: right;
+    padding-top: 25px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+.navbar2 img{
+    width: 30px;
+    height: 25px;
+}
+.btn1{
+    padding:10px;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    margin: 5px;
+}
+.container{
+    margin: 10px;
+    width: 1350px;
+    
+    margin: 0 auto; 
+}
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+
+}
+
+
+.con1{
+    background: linear-gradient(to right, rgb(115, 228, 100, 0.65), rgb(100, 199, 191,0.65)), url(b1.png) ;
+
+}
+
+.col1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    padding: 30px ;
+
+}
+.col1-1{
+    width: 50%;
+  
+   padding: 20px ;
+   margin: 30px;
+    vertical-align: top;
+}
+.col1-1 h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.col1-1 p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+/*container 2*/
+.con2{
+    background-color: white;
+    color: black;
+    display: flex;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+}
+.col2-1{
+    padding: 20px auto;
+    justify-content: space-evenly;
+    margin: 10px;
+    width: 30%;
+}
+.col2-1 dt {
+    font-size: 30px;
+
+}
+.col2-1 dd {
+    font-size: 18px;
+    line-height: 1.4;
+
+}
+/*.col2-1 .cube1{
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+}*/
+
+.col2-2{
+    padding: 20px auto;
+    
+    margin-left: 50px;
+    width: 30%;
+}
+
+.col2-2 dd{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.col2-2 .cube2{
+    height: 3px;
+    width: 200px;
+    background-color: black;
+    margin: 20px;
+}
+.cube3{
+    height: 4px;
+    width: 250px;
+    background-color: black;
+    margin: 20px;
+}
+.cube4{
+    height: 4px;
+    width: 170px;
+    background-color: black;
+    margin: 20px;
+}
+.cube5{
+    height: 4px;
+    width: 140px;
+    background-color: black;
+    margin: 20px;
+}
+
+.col2-3{
+    background-color: white;
+    width: 30%;
+}
+.col2-3 img{
+    width: 220px;
+    height: 250px;
+}
+
+
+/*container 3*/
+.con3{
+    background-color:rgb(170, 165, 165);
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.con3 p{
+    font-size: 13px;
+    color: crimson;
+    font-weight: bold;
+}
+.con3 dt{
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+}
+.con3 dd{
+    font-size: 16px;
+    color: rgb(109, 109, 109);
+}
+.btn2{
+    padding:10px;
+    background-color: grey;
+    color: rgb(34, 33, 33);
+    border-radius: 30px;
+    margin-top: 10px;
+}
+/*coloum 3 -1*/
+.con3-1{
+    height:400px;
+    width: 50%;
+    display: flex;
+    background-color: white;
+    padding: 10px;
+}
+.col3-1-1 img{
+     height: 300px;
+     width: 300px;
+     display: inline-block;
+     
+}
+.col3-1-2{
+   padding: 20px;
+}
+
+/*coloum 3-2*/
+.con3-2{
+    height:400px;
+    width: 200px;
+   padding: 10px;
+    background-color: white;
+}
+.col3-2-1 img{
+     height: 300px;
+     width: 300px;
+     
+}
+.col3-2-2{
+   padding: 20px;
+}
+
+/*coloum 3-3*/
+.con3-3{
+    height:400px;
+    width: 400px;
+    padding: 10px;
+    background-color: white;
+}
+.col3-3-1 img{
+     height: 300px;
+     width: 300px;
+     
+}
+.col3-3-2 {
+   padding: 20px;
+}
+/*coloum 3-2*/
+.con3-4{
+    height:400px;
+    width: 600px;
+    padding: 10px;
+    background-color: white;
+}
+.col3-4-1 img{
+     height: 300px;
+     width: 300px;
+     
+}
+.col3-4-2{
+   padding: 20px;
+}
+
+
+/*our work*/
+.gallery1{
+    margin: 20px;
+    display: flex;
+    width: 1400px;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.box1{
+    width:150px;
+     height: 300px;
+     font-size: 20px;
+     vertical-align: top;
+     justify-content: space-evenly;
+     margin: 20px;
+     padding: 10px;
+     display: flex;
+
+}
+.box1 img{
+    width: 250px;
+    height: 200px;
+    
+    justify-content: space-evenly;
+}
+
+/*contact us*/
+.contact{
+    width: 92%;
+    
+    margin:30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(115, 228, 100), rgb(100, 199, 191));
+}
+.contact-box{
+   display: flex;
+    background: linear-gradient(to right, rgb(115, 228, 100), rgb(100, 199, 191));
+}
+.contact-left{
+    flex-basis: 80%;
+    padding: 20px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 20px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 70%;
+}
+textarea{
+    width: 80%;
+
+}
+
+
+/*company*/
+.company{
+    background: linear-gradient(to left, rgb(8, 8, 8), rgb(49, 49, 49));
+     width: 90%;
+    margin:30px;
+    padding: 50px;
+}
+.company p{
+    color: white;
+}
+h2{
+   font-size: 30px;
+   font-family: 'Oswald', sans-serif;
+   color: white;
+   text-transform: capitalize;
+   font-weight: bold;
+   padding: 10px;
+   text-align: start;
+}
+.company-1{
+    display: inline-block;
+   color: white;
+    padding:10px;
+}
+.company-1 P{
+    line-height: 1.5;
+    font-size: 18px;
+    color: white;
+}
+
+.navbar3{
+    float: right;
+    padding-top: 2px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+.navbar3 img{
+    width: 30px;
+    height: 25px;
+}
